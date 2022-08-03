@@ -101,6 +101,14 @@
             descriptionTd.append(movie.description);
             tr.append(descriptionTd);
 
+            const actorsTd = document.createElement("td");
+            actorsTd.append(movie.actors);
+            tr.append(actorsTd);
+
+            const genresTd = document.createElement("td");
+            genresTd.append(movie.genres);
+            tr.append(genresTd);
+
             const linksTd = document.createElement("td");
 
 
